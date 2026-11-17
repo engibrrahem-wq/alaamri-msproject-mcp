@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alaamri-msproject": {
+      "command": "C:\\path\\to\\alaamri-msproject-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\alaamri-msproject-mcp\\server.py"]
+    }
+  }
+}
