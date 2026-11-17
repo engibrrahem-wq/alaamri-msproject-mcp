@@ -10,17 +10,14 @@
 - **Python 3.10** أو أحدث، من [python.org](https://www.python.org/downloads/). أثناء التنصيب أشّر على خيار **Add python.exe to PATH**.
 - **Claude Desktop** من [claude.ai/download](https://claude.ai/download).
 
-## التنصيب (5 دقائق)
-1. حمّل الأداة من GitHub: **https://github.com/engibrrahem-wq/alaamri-msproject-mcp**
-   - اضغط الزر الأخضر **Code** ثم **Download ZIP**، أو حمّلها مباشرة من: https://github.com/engibrrahem-wq/alaamri-msproject-mcp/archive/refs/heads/main.zip
-   - فكّ الضغط في مكان ثابت، مثل `C:\alaamri-msproject-mcp`.
-2. داخل المجلد الذي فككت ضغطه شغّل ملف `install.bat` بنقرة مزدوجة. سيُنشئ بيئة Python وينصّب الأداة، ثم يطبع لك نص الإعداد جاهزاً بمسار مجلدك.
-   - بديل للمحترفين: `git clone` ثم `pip install -e .`، كما في README على GitHub.
-3. في Claude Desktop افتح **Settings ← Developer ← Edit Config**. ينفتح ملف `claude_desktop_config.json`.
-4. الصق النص الذي طبعه `install.bat` واحفظ الملف.
-   - إن كان في الملف إعدادات سابقة، فأضف قسم `"alaamri-msproject"` داخل `"mcpServers"` الموجود ولا تكرّره.
-5. **أغلق Claude Desktop تماماً**: من أيقونته بجانب الساعة اختر Quit. ثم افتحه من جديد.
-6. تحقق: في نافذة المحادثة، ضمن أيقونة الأدوات، يجب أن تظهر أدوات **alaamri-msproject**.
+## التنصيب (3 خطوات)
+1. فكّ ضغط حزمة الأداة، أو حمّلها من GitHub: الزر الأخضر **Code** ثم **Download ZIP**.
+2. شغّل `install.bat` بنقرة مزدوجة، وانتظر بضع دقائق (يحتاج إنترنت). المثبّت:
+   - ينصّب الأداة في `%LOCALAPPDATA%\Alaamri-MSProject-MCP`، من المجلد نفسه إن وجد `server.py` بجانبه، وإلا يحمّل أحدث نسخة من GitHub.
+   - **يضيفها إلى Claude Desktop تلقائياً**، ويحتفظ بنسخة احتياطية `.bak` من ملف الإعداد.
+3. **أغلق Claude Desktop تماماً**: من أيقونته بجانب الساعة اختر Quit، ثم افتحه من جديد. يجب أن تظهر أدوات **alaamri-msproject** في قائمة الأدوات.
+
+إن ظهرت رسالة Windows SmartScreen فاختر **More info** ثم **Run anyway**. الملف نصّي مفتوح ويمكنك قراءته قبل تشغيله. وللتحديث لأحدث نسخة لاحقاً، شغّل `install.bat` مرة أخرى.
 
 ## الاستخدام
 1. افتح MS Project، وافتح **نسخة** من الجدول أو ملفاً فارغاً. لا تشتغل على ملف العميل الأصلي.

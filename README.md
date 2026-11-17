@@ -14,7 +14,7 @@ All COM calls run on a single dedicated STA thread, because Project's COM object
 
 ## Install
 
-**Quick (Windows):** download the ZIP (Code → Download ZIP), unzip it, and double-click `install.bat`. It creates the virtual environment, installs the server and prints the Claude Desktop config with your path filled in.
+**Quick (Windows):** double-click `install.bat` (on its own or inside the downloaded ZIP). It installs the server into `%LOCALAPPDATA%\Alaamri-MSProject-MCP` (from this folder if `server.py` is next to it, otherwise the latest version from GitHub) and registers it in Claude Desktop automatically, keeping a `.bak` of your config. Then fully quit and reopen Claude Desktop. Run it again any time to update.
 
 **Manual:**
 
