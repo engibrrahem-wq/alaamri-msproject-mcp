@@ -10,7 +10,13 @@ All COM calls run on a single dedicated STA thread, because Project's COM object
 - Microsoft Project desktop (installed and licensed)
 - Python 3.10 or newer
 
+> **بالعربي:** [دليل التنصيب خطوة بخطوة](docs/ar/INSTALL-AR.md) · [البرومبت المستخدم في الفيديو](prompts/villa-schedule-prompt-ar.txt) · تنصيب بنقرة واحدة: `install.bat`
+
 ## Install
+
+**Quick (Windows):** download the ZIP (Code → Download ZIP), unzip it, and double-click `install.bat`. It creates the virtual environment, installs the server and prints the Claude Desktop config with your path filled in.
+
+**Manual:**
 
 ```powershell
 git clone https://github.com/engibrrahem-wq/alaamri-msproject-mcp.git
