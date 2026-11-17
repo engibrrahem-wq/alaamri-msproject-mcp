@@ -10,7 +10,7 @@ All COM calls run on a single dedicated STA thread, because Project's COM object
 - Microsoft Project desktop (installed and licensed)
 - Python 3.10 or newer
 
-> **بالعربي:** [دليل التنصيب خطوة بخطوة](docs/ar/INSTALL-AR.md) · [البرومبت المستخدم في الفيديو](prompts/villa-schedule-prompt-ar.txt) · تنصيب بنقرة واحدة: `install.bat`
+> **بالعربي:** [دليل التنصيب PDF](docs/ar/INSTALL-AR.pdf) · [النسخة النصية](docs/ar/INSTALL-AR.md) · [البرومبت المستخدم في الفيديو](prompts/villa-schedule-prompt-ar.txt) · تنصيب بنقرة واحدة: `install.bat`
 
 ## Install
 
